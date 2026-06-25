@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '26.x'
           cache: 'npm'
 
       - name: Install dependencies
@@ -32,6 +32,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: github-actions
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
