@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   trailingSlash: true,
   /* config options here */
+  basePath: '/portfolio-latest',   // ← Important! Change to your repo name
 };
 
 export default nextConfig;
