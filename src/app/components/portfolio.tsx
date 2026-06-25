@@ -9,14 +9,14 @@ const blogs = [
     slug: "forex",
     title: "AI Forex Trading System",
     excerpt: "Predicts foreign exchange movements using market data, indicators, and sentiment signals.",
-    image: "/unnamed.png",
+    image: "/portfolio-latest/unnamed.png",
     date: "Jun 2026",
   },
   {
     slug: "supplychain",
     title: "Supply Chain Analytics",
     excerpt: "Enterprise analytics to optimize inventory and demand forecasting across manufacturing teams.",
-    image: "/supplu.webp",
+    image: "/portfolio-latest/supplu.webp",
     date: "Apr 2026",
   },
   // Add more as you create MDX files
@@ -40,7 +40,7 @@ export default function BlogSection() {
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">BLOGS</p>
           <h2 className="mt-2 text-3xl font-extrabold text-white">Latest Writing</h2>
         </div>
-        <Link href="/blog" className="text-cyan-400 hover:text-cyan-300">View All →</Link>
+        <Link href="/portfolio-latest/blog" className="text-cyan-400 hover:text-cyan-300">View All →</Link>
       </div>
 
       <div className="relative group">
@@ -50,7 +50,7 @@ export default function BlogSection() {
 
         <div ref={containerRef} className="flex gap-6 overflow-x-auto scroll-smooth pb-8 snap-x snap-mandatory no-scrollbar">
           {blogs.map((b) => (
-            <Link key={b.slug} href={`/blogs/${b.slug}`} className="min-w-[80%] sm:min-w-[42%] lg:min-w-[28%] shrink-0 snap-start group">
+            <Link key={b.slug} href={`/portfolio-latest/blogs/${b.slug}`} className="min-w-[80%] sm:min-w-[42%] lg:min-w-[28%] shrink-0 snap-start group">
               <article className="rounded-3xl overflow-hidden border border-white/10 bg-slate-900/70 backdrop-blur-xl hover:border-cyan-500/30 transition-all h-full flex flex-col">
                 <div className="overflow-hidden">
                   <Image src={b.image} alt={b.title} width={800} height={440} className="h-44 w-full object-cover transition-transform group-hover:scale-105" />
