@@ -51,7 +51,7 @@ export default function Hero() {
                 <div className="mt-5 flex items-center gap-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-3xl bg-white/90 shadow-sm shadow-slate-900/10">
                     <Image
-                      src="/images/company-logos/ankercloud.svg"
+                      src="/portfolio-latest/images/company-logos/ankercloud.svg"
                       alt="AnkerCloud"
                       width={32}
                       height={32}
@@ -67,7 +67,7 @@ export default function Hero() {
 
               <div className="relative overflow-hidden rounded-[32px] bg-slate-100 shadow-xl shadow-slate-200/30 transition duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl/15 dark:bg-slate-950 dark:shadow-black/20 animate-fade-up animate-delay-600 h-[160px] w-[160px] max-w-full mx-auto md:mx-0">
                 <Image
-                  src="/profile/profile_picture.jpeg"
+                  src="/portfolio-latest/profile/profile_picture.jpeg"
                   alt="Profile"
                   width={160}
                   height={160}
@@ -85,7 +85,7 @@ export default function Hero() {
               </p>
               <div className="mt-4 flex items-center gap-3 opacity-90">
                 <Image
-                  src="/aptean.png"
+                  src="/portfolio-latest/aptean.png"
                   alt="Aptean"
                   width={120}
                   height={30}

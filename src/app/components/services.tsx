@@ -4,16 +4,16 @@ import Image from "next/image"
 
 export default function Services() {
   const photos = [
-    "/photos/p1.jpeg",
-    "/photos/p2.jpeg",
-    "/photos/p3.jpeg",
-    "/photos/p4.jpeg",
-    "/photos/p5.jpeg",
-    "/photos/p6.jpeg",
-    "/photos/p7.jpeg",
-    // "/photos/p8.jpeg",
-    // "/photos/p9.jpeg",
-    // "/photos/p10.jpeg",
+    "/portfolio-latest/photos/p1.jpeg",
+    "/portfolio-latest/photos/p2.jpeg",
+    "/portfolio-latest/photos/p3.jpeg",
+    "/portfolio-latest/photos/p4.jpeg",
+    "/portfolio-latest/photos/p5.jpeg",
+    "/portfolio-latest/photos/p6.jpeg",
+    "/portfolio-latest/photos/p7.jpeg",
+    // "/portfolio-latest/photos/p8.jpeg",
+    // "/portfolio-latest/photos/p9.jpeg",
+    // "/portfolio-latest/photos/p10.jpeg",
   ]
 
   const containerRef = useRef<HTMLDivElement | null>(null)
