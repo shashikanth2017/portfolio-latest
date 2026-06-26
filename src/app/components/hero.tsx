@@ -89,7 +89,11 @@ export default function Hero() {
                   alt="Aptean"
                   width={120}
                   height={30}
-                  style={{ width: "auto", height: "auto" }}
+                  style={{
+                    width: "120px",
+                    height: "30px",
+                    objectFit: "contain",
+                  }}
                 />
               </div>
             </div>
