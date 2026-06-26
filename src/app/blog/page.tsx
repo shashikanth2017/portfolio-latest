@@ -11,7 +11,7 @@ export default async function BlogIndex() {
       <div className="relative mx-auto w-full max-w-4xl px-6 py-12">
                         {/* Back Button */}
                         <Link
-          href="/portfolio-latest"
+          href="/"
                             className="inline-flex items-center gap-2 text-slate-300 hover:text-white mb-8 transition"
                         >
                             <ArrowLeft className="w-4 h-4" />
